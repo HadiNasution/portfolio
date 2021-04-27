@@ -1,0 +1,39 @@
+html {
+  scroll-behavior: smooth;
+}
+
+.jumbotron {
+  padding-top: 7rem;
+  background-color: #0d6efd;
+}
+
+#projects {
+  background-color: #0d6efd;
+  /*e2edff*/
+}
+
+section {
+  padding-top: 5rem;
+}
+
+.vl {
+  border-left: 1px solid rgb(122, 122, 122);
+  height: 250px;
+}
+
+.card {
+  border-radius: 30px;
+  transition: transform 0.2s;
+}
+
+.card:hover {
+  transform: scale(1.1);
+}
+
+.card img {
+  border-radius: 30px 30px 0px 0px;
+}
+
+.header-skills {
+  color: dimgray;
+}
